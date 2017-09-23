@@ -73,6 +73,9 @@ object SettingsMenu {
     val result =
       <div class="gbfrf-settings__footer">
         <ul class="gbfrf-settings__footer-links">
+		  <li>
+             GBF-RaidFinder台灣分站
+          </li>
           <li>
             <a href={ githubBaseUrl + "/blob/master/CHANGELOG.md" } target="_blank">
               Changelog
