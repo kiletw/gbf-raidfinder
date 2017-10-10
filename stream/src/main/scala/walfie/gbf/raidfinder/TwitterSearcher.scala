@@ -28,7 +28,7 @@ object TwitterSearcher {
 
   /** The maximum number of search results returned from the twitter API is 100 */
   val MaxCount = 100
-  val DefaultSearchTerm = "参加者募集！参戦ID： OR \"I need backup!\""
+  val DefaultSearchTerm = "参戦ID\n参加者募集！ OR \"Battle ID\nI need backup!\""
 
   def apply(twitter: Twitter, paginationType: PaginationType): Twitter4jSearcher =
     new Twitter4jSearcher(twitter, paginationType)
